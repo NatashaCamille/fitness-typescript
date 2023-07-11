@@ -28,6 +28,10 @@ module.exports = {
         sm: "768px",
         md: "1060px",
       },
+      content: {
+        axeltext: "url('./assets/AxelText.png')",
+        
+      }
     },
   },
   plugins: [],
