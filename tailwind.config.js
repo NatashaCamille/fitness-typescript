@@ -20,7 +20,7 @@ module.exports = {
         "mobile-home": "url('./assets/HomePageGraphic.png')",
       }),
       fontFamily: {
-        dmsans: ["DM Sans", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
       screens: {
@@ -30,7 +30,9 @@ module.exports = {
       },
       content: {
         axeltext: "url('./assets/AxelText.png')",
-        
+        abstractwaves: "url('./assets/AbstractWaves.png')",
+        sparkles: "url('./assets/Sparkles.png')",
+        circles: "url('./assets/Circles.png')",
       }
     },
   },
