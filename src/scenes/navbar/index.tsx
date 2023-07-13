@@ -1,10 +1,12 @@
-import React from 'react'
+import { useState } from "react"
 
-type Props = {}
+
+
+ type Props = {}
 
 const index = (props: Props) => {
   return (
-    <div>index</div>
+    <div>Navbar</div>
   )
 }
 
