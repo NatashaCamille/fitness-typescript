@@ -1,12 +1,21 @@
 import { useState } from "react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import Logo from "@/assets/Logo.png";
 
-
- type Props = {}
+ type Props = {};
 
 const Navbar = (props: Props) => {
+  const flexbetween = "flex items-center justify-between";
   return (
-    <div>Navbar</div>
+    <nav>
+        <div className={`${flexbetween} fixed top-0 z-30 w-full py-6`}>
+          <div className={`${flexbetween} mx-auto w-5/6`}>
+            <div className={`${flexbetween} w-full gap-16`}>
+
+            </div>
+          </div>
+      </div> 
+    </nav>
   )
 }
 
