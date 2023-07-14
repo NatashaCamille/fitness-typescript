@@ -11,6 +11,7 @@ const Navbar = (props: Props) => {
         <div className={`${flexbetween} fixed top-0 z-30 w-full py-6`}>
           <div className={`${flexbetween} mx-auto w-5/6`}>
             <div className={`${flexbetween} w-full gap-16`}>
+              
               <img alt="logo" src={Logo} />
 
               <div className={`${flexbetween} w-full`}>
