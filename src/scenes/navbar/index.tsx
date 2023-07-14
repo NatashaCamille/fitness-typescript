@@ -18,7 +18,11 @@ const Navbar = (props: Props) => {
                   <p>Home</p>
                   <p>Bnefits</p>
                   <p>Our Classes</p>
-                  <p>About</p>
+                  <p>Contact</p>
+                </div>
+                <div>
+                  <p>Sign In</p>
+                  <button>Join Us Today</button>
                 </div>
                 <div>
 
