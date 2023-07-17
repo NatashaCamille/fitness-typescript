@@ -4,8 +4,8 @@ import Logo from "@/assets/Logo.png";
 import Link from "./Link";
 
  type Props = {
-  selectedPage: selectedPage;
-  setSelectedPage: (value: SelectedPage) => void;
+  selectedPage: number;
+  setSelectedPage: (value: string) => void;
  };
 
 const Navbar = ({selectedPage, setSelectedPage}: Props) => {
