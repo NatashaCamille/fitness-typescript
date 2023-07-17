@@ -1,10 +1,10 @@
 import { useState } from "react"
-import { Bars3Icon, LinkIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Logo from "@/assets/Logo.png";
-import Link from "./Link";
+// import Link from "./Link";
 
  type Props = {
-  selectedPage: number;
+  selectedPage: string;
   setSelectedPage: (value: string) => void;
  };
 
