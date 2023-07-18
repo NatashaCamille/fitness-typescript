@@ -23,17 +23,18 @@ module.exports = {
         roboto: ["Roboto", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
-      screens: {
-        xs: "480px",
-        sm: "768px",
-        md: "1060px",
-      },
+
       content: {
-        axeltext: "url('./assets/AxelText.png')",
+        evolvetext: "url('./assets/EvolveText.png')",
         abstractwaves: "url('./assets/AbstractWaves.png')",
         sparkles: "url('./assets/Sparkles.png')",
         circles: "url('./assets/Circles.png')",
       }
+    },
+    screens: {
+      xs: "480px",
+      sm: "768px",
+      md: "1060px",
     },
   },
   plugins: [],
